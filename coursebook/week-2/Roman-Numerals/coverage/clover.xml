@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1580040921269" clover="3.2.0">
+  <project timestamp="1580040921269" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2" elements="25" coveredelements="25" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
+    <file name="romanizer.js" path="/home/asmaa/week2/roman numerals/romanizer.js">
+      <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="61" count="27" type="stmt"/>
+      <line num="62" count="27" type="stmt"/>
+      <line num="63" count="27" type="cond" truecount="2" falsecount="0"/>
+      <line num="64" count="1" type="stmt"/>
+      <line num="66" count="26" type="cond" truecount="4" falsecount="0"/>
+      <line num="67" count="2" type="stmt"/>
+      <line num="70" count="24" type="stmt"/>
+      <line num="71" count="336" type="cond" truecount="2" falsecount="0"/>
+      <line num="72" count="33" type="stmt"/>
+      <line num="73" count="33" type="stmt"/>
+      <line num="77" count="24" type="stmt"/>
+      <line num="78" count="24" type="stmt"/>
+      <line num="82" count="24" type="stmt"/>
+      <line num="85" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

@@ -1,0 +1,21 @@
+{
+  "name": "romanizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose romanizer.test.js --coverage",
+    "update": "nodemon -q -x 'npm test'",
+    "start": "browser-sync start --no-notify -sf 'index.html, style.css, app.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "@types/jest": "^24.9.1"
+  }
+}

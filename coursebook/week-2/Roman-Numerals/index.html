@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Romanizer</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size: 1.125rem;
+      color: #333;
+    }
+
+    input,
+    button {
+      display: block;
+      width: 100%;
+      font-family: inherit;
+      font-size: inherit;
+      color: inherit;
+      background-color: white;
+      border: none;
+      border-radius: 0;
+    }
+
+    .container {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    .form__row {
+      margin-top: 0.5rem;
+      display: flex;
+    }
+
+    .form__input {
+      padding: 0.5rem;
+      border: 1px solid #666;
+    }
+
+    /* Slightly less ugly than the default focus styles */
+    .form__input:focus,
+    .form__button:focus {
+      outline: 2px solid skyblue;
+      outline-offset: 2px;
+    }
+
+    .form__button {
+      margin-left: 0.5rem;
+      padding: 0.5rem;
+      color: white;
+      background-color: palevioletred;
+      border-top: none;
+      transition: background-color 0.2s;
+    }
+
+    .form__button:hover {
+      background-color: #c65379;
+    }
+
+    .result {
+      width: 100%;
+      min-height: 5rem;
+      margin-top: 1rem;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      border: 1px solid #666;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Roman Numeral Converter</h1>
+    <form class="form">
+      <label class="form" for="numeral">Enter a number</label>
+      <div class="form__row">
+        <input class="form__input"id="numeral" type="text" placeholder="e.g. 42" required autofocus>
+        <button class="form__button" type="submit">Submit</button>
+      </div>
+    </form>
+    <div class="result"></div>
+  </main>
+<script src="romanizer.js"></script>
+<script>
+var form = document.querySelector('.form');
+var result = document.querySelector('.result');
+
+form.addEventListener('submit', function(e) {
+  // Stop form from refreshing the page
+  e.preventDefault();
+  var userNum = e.target[0].value;
+  var romanNum = romanizer(userNum);
+  result.textContent = romanNum;
+});
+</script>
+</body>
+</html>

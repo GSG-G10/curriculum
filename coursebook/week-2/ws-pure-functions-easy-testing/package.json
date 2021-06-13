@@ -1,0 +1,23 @@
+{
+  "name": "pure-functions-easy-testing",
+  "version": "1.0.0",
+  "description": "One of the biggest benefits of testing your code, is that you will be encouraged to write testable code. Testable code will tend to be predictable, readable, and split into small pure functions.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jwhiles/pure-functions-easy-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jwhiles/pure-functions-easy-testing/issues"
+  },
+  "homepage": "https://github.com/Jwhiles/pure-functions-easy-testing#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "facsters": [
+    {
+      "id": 1,
+      "firstname": "Abdullah",
+      "surname": "Chaudry",
+      "cohort": 11
+    },
+    {
+      "id": 2,
+      "firstname": "Amelie",
+      "surname": "Mystery",
+      "cohort": 11
+    },
+    {
+      "id": 3,
+      "firstname": "Aseel",
+      "surname": "Mustafa",
+      "cohort": 11
+    },
+    {
+      "id": 4,
+      "firstname": "Alina",
+      "surname": "Solinas",
+      "cohort": 11
+    },
+    {
+      "id": 5,
+      "firstname": "Bart",
+      "surname": "Bucknill",
+      "cohort": 11
+    },
+    {
+      "id": 6,
+      "firstname": "Yahia",
+      "surname": "Mystery",
+      "cohort": 11
+    }
+  ],
+  "hobbies": [
+    {
+      "facster_id": 1,
+      "hobby": "late night sql",
+      "superpower": "linting wizard"
+    },
+    {
+      "facster_id": 2,
+      "hobby": "baking french breads",
+      "superpower": "this variable afficionado"
+    },
+    {
+      "facster_id": 3,
+      "hobby": "Pro Athlete",
+      "superpower": "Burning down cocoa fields"
+    },
+    {
+      "facster_id": 4,
+      "hobby": "tiramisuing",
+      "superpower": "Waterfalls in parallel"
+    },
+    {
+      "facster_id": 5,
+      "hobby": "Ninja training",
+      "superpower": "NodeBot!!"
+    }
+  ]
+}

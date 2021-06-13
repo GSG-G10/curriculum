@@ -1,0 +1,28 @@
+{
+  "name": "pg-code-along",
+  "version": "1.0.0",
+  "description": "A walkthrough to get familiar with postgres connection using express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ali-7/pg-code-along.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ali-7/pg-code-along/issues"
+  },
+  "homepage": "https://github.com/ali-7/pg-code-along#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "env2": "^2.2.2",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

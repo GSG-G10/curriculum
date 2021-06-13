@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>PG workshop - get users from the database</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Users</a>
+        </div>
+    </nav>
+    <form class="form" action="/create-user" method="post">
+        <input type="text" name="name" value="" placeholder="name">
+        <input type="text" name="location" value="" placeholder="location">
+        <button type="submit" name="button">+ Add user</button>
+    </form>
+    <div class="table-container">
+        <table id="users-table">
+            <tr>
+                <th>Name</th>
+                <th>Location</th>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

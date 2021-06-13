@@ -1,0 +1,28 @@
+{
+  "name": "pg-workshop",
+  "version": "1.0.0",
+  "description": "workshop on making small express app with a database connection",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ali-7/pg-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ali-7/pg-workshop/issues"
+  },
+  "homepage": "https://github.com/ali-7/pg-workshop#readme",
+  "dependencies": {
+    "env2": "^2.2.2",
+    "express": "^4.17.1",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
